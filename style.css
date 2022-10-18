@@ -98,12 +98,13 @@ h3{
 
         }
         .header-div-1{
-            width: 100%;
+       
+          width: 70%;
+        
+        
         }
 
-        .header-div-2{
-            
-        }
+    
 
     
     
@@ -116,10 +117,9 @@ h3{
             font-size: 40px;
         }
 
-        .header-div-2 img{
+        /* .header-div-2 img{
             /* width:130%; */
-         }
-
+       
 
 /*     
        .header-div-1{
