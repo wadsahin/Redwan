@@ -66,7 +66,8 @@ h3{
 } */
 
 .header-div-2{
-    width: 50%;
+    width: 80vh;
+   
    
 
     
@@ -83,8 +84,22 @@ h3{
     }
 
     .header-div-1{
+        
         padding-top:40px;
+        width: 90%;
+        margin: 0px;
+        display: grid;
+        justify-content:center;
+       
+       
     }
+
+    .header-div-2 img{
+        width:100%;
+        padding: 0px;
+        margin: 0px;
+       
+     }
     
     
     }
@@ -98,8 +113,13 @@ h3{
 
         }
         .header-div-1{
+            width: 100%;          
+            margin:0px;
+            padding: 0px;
+            display: grid;
+           justify-content: center;
        
-          width: 70%;
+        
         
         
         }
@@ -118,8 +138,9 @@ h3{
         }
 
         .header-div-2 img{
-         
-             width:120%;
+            width:100%;
+  
+           
         }
     }
        
@@ -184,6 +205,7 @@ h3{
 
             .about-div2{
                 width: 100%;
+          
 
 
             }
@@ -215,7 +237,9 @@ h3{
                 
             }
             .about-div2 p{
-                width: 80%;
+                width: 90%;
+                word-break: break-all;
+                
             }
             .about-div2 h1{
                 font-size: 50px;
