@@ -117,58 +117,119 @@ h3{
             font-size: 40px;
         }
 
-        /* .header-div-2 img{
-            /* width:130%; */
+        .header-div-2 img{
+         
+             width:120%;
+        }
+    }
        
 
-/*     
-       .header-div-1{
-         
-        
-           
-    
-        
-       }
-    
-       .header-div-2{
-          
-           
-           
-       } */
-    
-    
-        
-        
-        
-/*     
-        @media only screen and (min-width:600px){
-            
-        .header{
+/* about section start from here */
+
+        .about-sec{
+
+            background-color: rgb(12, 9, 11);
+            display:flex;
+            margin-bottom: 20px;
             align-items: center;
-            
-           
-           }
-        .header-div-1{ */
+            padding:30px 0px;
+
+
+
+        }
+
+        .about-div1{
+            width: 50%;
+            margin-bottom: 40px;
+                        
+        }
+
+        .about-img{
+            width: 60%;
+            margin-left: 30px;
+            margin-top: 20px;
+            border-radius: 30px;
             
         
-     
-         
-    } 
-    
-    
+        }
+        .about-div2{
+            width: 50%;
+            color: whitesmoke;
+            align-items: center;
+           
+        }
 
-.about{
+        .about-div2 p{
+
+            width: 65%;
+            line-height: 20px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+        @media screen and (max-width:768px) {
+            .about-sec{
+                flex-direction: column;
+                
+                justify-content: center;
+
+            }
+
+
+            .about-div1{
+                width: 100%;
+              
+           
+            }
+            
+
+            .about-div2{
+                width: 100%;
+
+
+            }
+
+            .center-div{
+                width: 80%;
+                margin: auto;
+                         
+                                           
+            }
+
+            .center-div .about-img{
+                /* justify-content: center; */
+                border: 2px solid orange;
+                width: 90%;
+               
+                
+                         
+
+            }
+            .center-div2{
+             
+                width: 100% ;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            
+                
+            }
+            .about-div2 p{
+                width: 80%;
+            }
+            .about-div2 h1{
+                font-size: 50px;
+            }
+
+            
+        }
+
+        /* .services{
 
 
 
-}
-.services{
+        }
+        .portfolio{
 
 
-
-}
-.portfolio{
-
-
-    
-}
+            
+        } */
