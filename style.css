@@ -198,7 +198,8 @@ h3{
             .center-div .about-img{
                 /* justify-content: center; */
                 border: 2px solid orange;
-                width: 90%;
+                width: 100%;
+                margin:0px;
                
                 
                          
